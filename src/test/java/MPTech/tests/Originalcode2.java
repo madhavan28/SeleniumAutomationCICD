@@ -38,7 +38,7 @@ public class Originalcode2 extends BaseTest {
 	public void submitorder(HashMap<String,String> input) throws InterruptedException, IOException{
 		// TODO Auto-generated method stub
 
-		
+		//this is a latest code change for demo
 		String countryName="Ind";
 		ProductCatalogue productCatalogue=landingpage.loginapplication(input.get("email"),input.get("password"));
 		List<WebElement> products=productCatalogue.getProductList();
