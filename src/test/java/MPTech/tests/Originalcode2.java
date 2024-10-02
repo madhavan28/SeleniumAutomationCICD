@@ -30,6 +30,7 @@ import MPTech.pageobject.checkoutpage;
 import MPTech.pageobject.confirmationpage;
 
 public class Originalcode2 extends BaseTest {
+	//	new comments are added here
 	public String productName="ADIDAS ORIGINAL";
 	
 	@Test(dataProvider="getData",groups= {"Purchaseorder"})
